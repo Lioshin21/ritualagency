@@ -30,6 +30,10 @@ body {
   justify-content: center;
 }
 
+.candle {
+  max-height: 50px;
+}
+
 .mini-cross {
   max-width: 50px;
   flex-basis: 30%;
@@ -95,7 +99,7 @@ body {
   display: none;
   flex-basis: 10%;
   height: max-content;
-  width: 50%;
+  max-width: 300px;
   transform: rotateY(180deg);
 }
 
@@ -119,7 +123,7 @@ body {
 
 .services li::before {
   display: inline-block;
-  background: url('./img/candle.webp');
+  background: url('./img/candle-item.webp');
   content: '';
   width: 20px;
   height: 20px;
